@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-cmd listen webhook: stripe listen --events payment_intent.succeeded --forward-to http://localhost:8081/api/v1/webhook/order
+cmd stripe listen --forward-to localhost:8081/webhook-stripe
 
 key:pk_test_51P7fwa050ltJMUBgspqPXNm2VBkYnYJ4IAtmUOwhBRVs7JYJAX7NiKml9WLMMV0E8mqBy8DlSr895QDg5r2gj7PA00G5a2jDsL
 

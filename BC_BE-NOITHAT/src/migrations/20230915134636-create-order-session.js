@@ -2,7 +2,7 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.createTable("Orders", {
+    await queryInterface.createTable("Order_Sessions", {
       id: {
         allowNull: false,
         autoIncrement: true,
@@ -30,10 +30,6 @@ module.exports = {
       UserId: {
         type: Sequelize.INTEGER,
       },
-      stripeSessionId: {
-        type: Sequelize.STRING,
-        defaultValue: "",
-      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,
@@ -45,6 +41,6 @@ module.exports = {
     });
   },
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable("Orders");
+    await queryInterface.dropTable("Order_Sessions");
   },
 };

@@ -2,37 +2,21 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.createTable("Orders", {
+    await queryInterface.createTable("Order_Product_Sessions", {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
-      payment: {
-        type: Sequelize.STRING,
-      },
-      status: {
+      OrderId: {
         type: Sequelize.INTEGER,
       },
-      name: {
-        type: Sequelize.STRING,
-      },
-      address: {
-        type: Sequelize.STRING,
-      },
-      phone: {
-        type: Sequelize.STRING,
-      },
-      total: {
-        type: Sequelize.FLOAT,
-      },
-      UserId: {
+      ProductId: {
         type: Sequelize.INTEGER,
       },
-      stripeSessionId: {
-        type: Sequelize.STRING,
-        defaultValue: "",
+      quantity: {
+        type: Sequelize.INTEGER,
       },
       createdAt: {
         allowNull: false,
@@ -45,6 +29,6 @@ module.exports = {
     });
   },
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable("Orders");
+    await queryInterface.dropTable("Order_Product_Sessions");
   },
 };
