@@ -9,12 +9,12 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
-      Order_Sessions.belongsTo(models.User);
-      Order_Sessions.belongsToMany(models.Product, {
-        through: "Order_Product",
-      });
-      Order_Sessions.hasMany(models.Order_Product, { foreignKey: "OrderId" });
-      Order_Sessions.hasMany(models.Rate, { foreignKey: "OrderId" });
+      // Order_Sessions.belongsTo(models.User);
+      // Order_Sessions.belongsToMany(models.Product, {
+      //   through: "Order_Product",
+      // });
+      // Order_Sessions.hasMany(models.Order_Product, { foreignKey: "OrderId" });
+      // Order_Sessions.hasMany(models.Rate, { foreignKey: "OrderId" });
     }
   }
   Order_Sessions.init(
