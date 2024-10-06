@@ -23,7 +23,6 @@ const Sidebar = () => {
     <div className="bg-white sidebar p-2">
       <div className="m-2">
         <img src={logo} alt="" width={"200px"} />
-        <p>AdminSkinLeLe</p>
       </div>
       <hr className="text-dark" />
       <div>

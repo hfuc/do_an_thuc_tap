@@ -9,13 +9,28 @@ const Banner = () => {
     <>
       <MDBCarousel showControls>
         <MDBCarouselItem itemId={1}>
-          <img src={banner2} className="d-block w-100" alt="..." />
+          <img
+            style={{ maxHeight: "600px", objectFit: "cover" }}
+            src={banner2}
+            className="d-block w-100"
+            alt="..."
+          />
         </MDBCarouselItem>
         <MDBCarouselItem itemId={2}>
-          <img src={banner3} className="d-block w-100" alt="..." />
+          <img
+            style={{ maxHeight: "600px", objectFit: "cover" }}
+            src={banner3}
+            className="d-block w-100"
+            alt="..."
+          />
         </MDBCarouselItem>
         <MDBCarouselItem itemId={3}>
-          <img src={banner2} className="d-block w-100" alt="..." />
+          <img
+            style={{ maxHeight: "600px", objectFit: "cover" }}
+            src={banner2}
+            className="d-block w-100"
+            alt="..."
+          />
         </MDBCarouselItem>
       </MDBCarousel>
     </>

@@ -69,8 +69,11 @@ const Rate = () => {
     <>
       <Header />
       <div className="container">
-        <h4 style={{ marginBottom: "40px", color: "gray" }}>
-          ĐÁNH GIÁ SẢN PHẨM
+        <h4
+          className="text-center mb-5 font-weight-bold"
+          style={{ color: "#333", letterSpacing: "2px" }}
+        >
+          ĐÁNH SẢN PHẨM
         </h4>
       </div>
       {ProductRate && ProductRate.product ? (
