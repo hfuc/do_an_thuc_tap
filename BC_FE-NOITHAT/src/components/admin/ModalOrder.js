@@ -37,7 +37,7 @@ const ModalOrder = (props) => {
                       <p>x {item.quantity}</p>
                       <p
                         style={{
-                          color: "#feb705 ",
+                          color: "#9c6644 ",
                           fontWeight: "bold",
                         }}
                       >

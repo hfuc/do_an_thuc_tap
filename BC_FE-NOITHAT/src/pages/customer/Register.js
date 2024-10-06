@@ -181,8 +181,8 @@ const Register = () => {
               <div className="form-group">
                 <button
                   style={{
-                    backgroundColor: "#feb705 ",
-                    borderColor: "#feb705 ",
+                    backgroundColor: "#9c6644 ",
+                    borderColor: "#9c6644 ",
                     width: "80%",
                     height: "100%",
                   }}

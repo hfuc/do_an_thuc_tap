@@ -166,7 +166,7 @@ const OrderManage = () => {
                           <td>{item.address}</td>
                           <td
                             style={{
-                              color: "#feb705 ",
+                              color: "#9c6644 ",
                               fontWeight: "bold",
                             }}
                           >

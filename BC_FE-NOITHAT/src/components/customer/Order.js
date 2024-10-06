@@ -180,7 +180,7 @@ const Order = () => {
                 <h6>Phương thức thanh toán</h6>
                 <div style={{ marginTop: "20px" }} className="form-check">
                   <input
-                    style={{ borderColor: "#feb705 " }}
+                    style={{ borderColor: "#9c6644 " }}
                     className="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
@@ -196,7 +196,7 @@ const Order = () => {
                 </div>
                 <div style={{ marginTop: "20px" }} className="form-check">
                   <input
-                    style={{ borderColor: "#feb705 " }}
+                    style={{ borderColor: "#9c6644 " }}
                     className="form-check-input"
                     type="radio"
                     name="flexRadioDefault"

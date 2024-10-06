@@ -6,7 +6,7 @@ import {
   MDBCol,
   MDBIcon,
 } from "mdb-react-ui-kit";
-import logo from "../../../assets/customer/images/logo-nha-xinh.png";
+import logo from "../../../assets/customer/images/logo.png";
 
 const Footer = () => {
   return (
